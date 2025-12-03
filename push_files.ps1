@@ -14,8 +14,8 @@ foreach ($file in $files) {
     # Commit the file
     git commit -m $commitMessage
 
-    # Push to remote (assuming 'origin' and 'main' branch)
-    git push origin main
+    # Push to remote (assuming 'origin' and 'master' branch)
+    git push origin master
 }
 
 Write-Host "All files have been added, committed, and pushed individually."
